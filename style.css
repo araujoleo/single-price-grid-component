@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    align-items: center;
+    background-color: hsl(204, 43%, 93%);
+    display: flex;
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+    height: 100vh;
+    justify-content: center;
+    max-width: 1440px;
+}
+
+
+
+/* PRICE-GRID */
+
+.price-grid{
+    padding-bottom: 150px;
+    height: 300px;
+    width: 600px;
+}
+@media(max-width:610px){
+    .price-grid{
+        width: 300px;
+    }
+}
+
+
+
+/* JOIN */
+
+.join{
+    background-color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 20px;
+}
+
+.join h1{
+   color:  hsl(179, 62%, 43%);
+   padding: 20px 0 20px 0;
+}
+@media(max-width:610px){
+    .join h1{
+        font-size: 20px;
+        padding-top: 10px;
+    }
+}
+
+.join h2{
+    color:  hsl(71, 73%, 54%);
+    padding-bottom: 10px;
+}
+@media(max-width:610px){
+    .join h2{
+        font-size: 15px;
+        padding-bottom: 15px;
+    }
+}
+
+
+.join p{
+    color: hsl(218, 22%, 67%);
+}
+@media(max-width:610px){
+    .join p{
+        font-size: 15px;
+        line-height: 1.4;
+        padding-bottom: 15px;
+    }
+}
+
+
+
+/* SIGN UP */
+
+.signup{
+    background-color:hsl(179, 62%, 43%);
+    border-bottom-left-radius:  10px;
+    color: white;
+    padding: 30px;
+    width: 300px;
+}
+@media(max-width:610px){
+    .signup{
+        border-bottom-left-radius: 0;
+        width: 240px;
+    }
+}
+
+
+.signup h1{
+    padding: 10px 0 10px 0;
+}
+
+.signup h2{
+    align-items: center;
+    display: flex;
+    font-size: 2em;
+    padding: 10px 0 10px 0;
+}
+.signup span{
+    color:hsl(179, 67%, 82%);
+    font-size: 15px;
+    padding: 0 0 0 10px;
+}
+.signup p{
+    padding: 0 0 10px 0;
+}
+
+.signup button{
+    background-color: hsl(71, 73%, 54%);
+    border: 0;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-weight: 700;
+    height: 40px;
+    margin: 20px 20px 20px 0;
+    width: 230px;
+}
+
+
+
+/* WHY US*/
+
+.whyus{
+    background-color: hsl(179, 71%, 46%);
+    border-bottom-right-radius:  10px;
+    color:hsl(204, 43%, 93%);
+    padding: 30px;
+    width: 300px;
+}
+@media(max-width:610px){
+    .whyus{
+        border-bottom-left-radius:  10px;
+        width: 240px;
+    }
+}
+
+.whyus h1{
+    color: white;
+    padding: 10px 0 15px 0;
+}
+
+.whyus p{
+    font-size: .9em;
+    line-height: 1.5;
+}
+
+
+
+/* MW-SECTION */
+
+.mw-section{
+    display: flex;
+}
+@media(max-width:610px){
+    .mw-section{
+        display: grid;
+    }
+}
+
+
+
+/* ATTRIBUTION */
+
+.attribution{
+    bottom: 0; 
+    font-size: .8em; 
+    margin-left: -460px;
+    padding-bottom: 10px;
+    position: absolute;
+    text-align: center; 
+}
+.attribution a{ 
+    color: hsl(228, 45%, 44%); 
+    text-decoration: none;
+}
+
+@media(max-width:610px){
+    .attribution{
+        bottom: -350px;
+        font-size: .7em;
+        margin-left: -297px;
+        position: absolute;
+    }
+}
